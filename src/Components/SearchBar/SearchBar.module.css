@@ -44,14 +44,13 @@
 }
 
 .displayBtn .btn{
-    margin-top: 2vh;
     padding: 20px;
     background-color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 5vh auto 0px;
     width: 20vw;
     height: 5vh;
     font-size: 1em;
@@ -86,7 +85,7 @@
     }
 
     .displayBtn .btn{
-        width: 50%;
+        min-width: 50%;
     }
 }
 
@@ -98,7 +97,7 @@
     }
 
     .displayBtn .btn{
-        width: 100%;
+        width: 50%;
     }
 }
 

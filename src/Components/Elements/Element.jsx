@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import {elementList} from './ElementList'
 import styles from './Element.module.css'
 
 export default function Element(props) {
@@ -8,8 +7,6 @@ export default function Element(props) {
     let activateElement = props.setElement
 
     // Handle Display
-
-    const [display, setDisplay] = useState(styles.active)
 
     // Element Data
 
