@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/doodlegod/static/css/main.9c3d078b.css",
+    "main.css": "/doodlegod/static/css/main.fd52f5bb.css",
     "main.js": "/doodlegod/static/js/main.837dc268.js",
     "static/js/787.95b6c0a9.chunk.js": "/doodlegod/static/js/787.95b6c0a9.chunk.js",
     "static/media/culture.png": "/doodlegod/static/media/culture.3e4565236e5c89b7fc8b.png",
@@ -72,12 +72,12 @@
     "static/media/cloud.png": "/doodlegod/static/media/cloud.15eb556cd941ec7fc2b4.png",
     "static/media/house.png": "/doodlegod/static/media/house.792b258d74ffb9ced8ec.png",
     "index.html": "/doodlegod/index.html",
-    "main.9c3d078b.css.map": "/doodlegod/static/css/main.9c3d078b.css.map",
+    "main.fd52f5bb.css.map": "/doodlegod/static/css/main.fd52f5bb.css.map",
     "main.837dc268.js.map": "/doodlegod/static/js/main.837dc268.js.map",
     "787.95b6c0a9.chunk.js.map": "/doodlegod/static/js/787.95b6c0a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c3d078b.css",
+    "static/css/main.fd52f5bb.css",
     "static/js/main.837dc268.js"
   ]
 }
