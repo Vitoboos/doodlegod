@@ -1,0 +1,98 @@
+.wrapper{
+    background-color: whitesmoke;
+}
+
+
+.wrapper:hover{
+    background-color: lightblue;
+}
+
+.element{
+    background-color: white;
+    margin: 0px 5px;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: showElement 0.5s forwards;
+}
+
+@keyframes showElement {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.element .name{
+    font-size: 20px;
+}
+
+.element .img{
+    width: 10vw;
+    height: 20vh;
+}
+
+.element:hover{
+    cursor: pointer;
+}
+
+.remove{
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: lightcoral;
+    width: 95%;
+    border: none;
+    font-size: 100%;
+}
+
+.remove:hover{
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    
+    .element .img{
+        width: 12vw;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    
+    .element .img{
+        width: 15vw;
+    }
+
+}
+
+@media (max-width: 800px) {
+    
+    .element .img{
+        width: 18vw;
+    }
+
+}
+
+@media (max-width: 500px) {
+    
+    .element .img{
+        width: 20vw;
+    }
+
+}
+
+
+@media (max-width: 350px) {
+    
+    .element .img{
+        width: 22.5vw;
+    }
+
+}

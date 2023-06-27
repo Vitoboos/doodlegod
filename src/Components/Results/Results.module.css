@@ -1,0 +1,84 @@
+.slot{
+    background-color: white;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    border: solid rgb(95, 179, 209) thick;
+}
+
+.slot .title{
+    margin: 1vh 0px;
+    font-size: 32px;
+}
+
+.slot .icon{
+    width: 10vw;
+    height: 20vh;
+}
+
+.slot .btn{
+    color: white;
+    background-color: rgb(129, 195, 253);
+    border: none;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 5vh;
+    font-size: 16px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(53, 159, 251);
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    
+    .slot{
+        width: 80%;
+    }
+
+    .slot .icon{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1050px) {
+    
+    .slot{
+        width: 95%;
+    }
+
+        
+    .slot .icon{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .slot .title{
+        margin: 2vh 0px;
+        font-size: 20px;
+    }
+    
+    .slot .icon{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .slot .title{
+        margin: 2vh 0px;
+        font-size: 16px;
+    }
+
+}
