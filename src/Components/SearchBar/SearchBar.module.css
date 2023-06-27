@@ -44,6 +44,7 @@
 }
 
 .displayBtn .btn{
+    margin-top: 2vh;
     padding: 20px;
     background-color: white;
     border: none;
